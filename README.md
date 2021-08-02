@@ -1,3 +1,2 @@
-# RobloxPropertySpoof
-<H1> Spoof Roblox properties <H1>
-Created to test the capabilities of my anti-exploit.
+# Spoof Roblox properties
+- Created to test the capabilities of my anti-exploit.
