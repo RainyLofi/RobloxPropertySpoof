@@ -35,7 +35,7 @@ OldIndex = hookmetamethod(game, '__index', function(...) -- spoofing properties
 
 	if not checkcaller() then
 		local Response = GetSpoofedProperty(Self, Key)
-		if Response ~= nil then return Response.Value end
+		if Response ~= nil then return Response[3] end
 	end
 	
 	return OldIndex(...)
